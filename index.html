@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GK Nexergy | Your IT Innovation Journey</title>
+  <meta name="description" content="GK Nexergy empowers local talent, builds technology solutions, and helps businesses transform for the digital future. Train. Build. Transform.">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+  <!-- =========================================
+       1. AUTHENTIC GK NEXERGY LANDING HERO UI
+  ========================================= -->
+  <main class="landing-hero">
+    <!-- Animated Constellation & Particle Background -->
+    <div class="hero-background-wrapper">
+      <img src="Background.gif" alt="Animated technology background" class="hero-bg-gif" onerror="this.style.display='none'">
+      <div class="hero-overlay-gradient"></div>
+    </div>
+
+    <!-- Landing Top Bar -->
+    <header class="landing-topbar">
+      <img src="logo.png" alt="GK Nexergy Logo" class="topbar-logo">
+      <span class="topbar-tag">Train • Build • Transform</span>
+    </header>
+
+    <!-- Center Landing Content (Exact match to screenshot) -->
+    <div class="landing-center-content">
+      <!-- Holographic 3D Globe Video -->
+      <div class="hero-globe-container">
+        <div class="hero-globe-glow"></div>
+        <video autoPlay loop muted playsInline class="hero-globe-video">
+          <source src="globe.mp4" type="video/mp4">
+          <img src="logo.png" alt="GK Nexergy Center Logo">
+        </video>
+      </div>
+
+      <!-- Single Line Title with Star Symbols -->
+      <h1 class="landing-title">YOUR IT INNOVATION JOURNEY</h1>
+      
+      <!-- Subtitle -->
+      <p class="landing-subtitle">Designed in Blueprint</p>
+      
+      <!-- Core Motto -->
+      <p class="landing-motto">TRAIN • BUILD • TRANSFORM</p>
+      
+      <!-- Buttons -->
+      <div class="landing-buttons-row">
+        <button class="landing-vision-btn" onclick="openChatWidget()">
+          <span>Discover the Vision</span>
+        </button>
+        <button class="landing-chat-trigger-btn" onclick="openChatWidget()">
+          <span>💬 Ask AI Assistant</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Footer Copyright -->
+    <footer class="landing-footer">
+      © 2026 GK Nexergy. All rights reserved.
+    </footer>
+  </main>
+
+
+  <!-- =========================================
+       2. FLOATING CHATBOT LAUNCHER BUTTON
+  ========================================= -->
+  <div class="chatbot-launcher" id="chatLauncher">
+    <div class="launcher-tooltip" onclick="openChatWidget()">
+      <span>💬 Ask Nexergy AI</span>
+    </div>
+    <button class="launcher-btn" onclick="toggleChatWidget()" aria-label="Open Chatbot Assistant">
+      <div class="launcher-pulse-ring"></div>
+      <img src="logo.png" alt="GK Logo">
+    </button>
+  </div>
+
+
+  <!-- =========================================
+       3. COMPACT FLOATING CHATBOT WINDOW (POPUP)
+  ========================================= -->
+  <aside class="chatbot-widget-window" id="chatbotWidget">
+    <!-- Header -->
+    <div class="widget-header">
+      <div class="widget-header-brand">
+        <img src="logo.png" alt="GK Logo" class="widget-logo">
+        <div class="widget-title-area">
+          <h3>
+            Nexergy AI
+            <span class="online-dot" title="Online"></span>
+          </h3>
+          <span class="widget-subtitle">GK Nexergy Assistant</span>
+        </div>
+      </div>
+
+      <div class="widget-header-controls">
+        <button class="control-icon-btn" onclick="toggleSound()" title="Toggle Sound">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" id="soundIcon"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+        </button>
+        <button class="control-icon-btn" onclick="openModal('settingsModal')" title="Settings / API Mode">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        </button>
+        <button class="control-icon-btn widget-close-btn" onclick="toggleChatWidget()" title="Minimize Chatbot">
+          &times;
+        </button>
+      </div>
+    </div>
+
+    <!-- Messages Container -->
+    <div class="widget-messages-container" id="chatMessages">
+      <div class="message-row bot">
+        <div class="message-avatar bot-avatar">
+          <img src="logo.png" alt="GK" onerror="this.src='';this.alt='GK';">
+        </div>
+        <div class="message-content-wrapper">
+          <div class="message-bubble">
+            <p>Hello! Welcome to <strong>GK Nexergy</strong>! 🚀</p>
+            <p>I am your AI assistant grounded in our official company portfolio (<em>Train • Build • Transform</em>). How can I help you today?</p>
+            <div class="message-actions">
+              <button class="action-chip-btn" onclick="sendQuickPrompt('What courses does Nexergy Academy offer?')">📚 View Courses</button>
+              <button class="action-chip-btn" onclick="sendQuickPrompt('What software services do you provide?')">💻 Software Solutions</button>
+              <button class="action-chip-btn" onclick="sendQuickPrompt('Tell me about your client projects and case studies')">🌟 Projects</button>
+              <button class="action-chip-btn" onclick="sendQuickPrompt('How do I contact GK Nexergy on WhatsApp?')">📱 WhatsApp Contact</button>
+            </div>
+          </div>
+          <span class="message-time">Just now</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Active Voice Assistant Status Banner -->
+    <div id="voiceStatusBanner" class="voice-status-banner" style="display: none;">
+      <div class="voice-status-content">
+        <div class="voice-wave-container">
+          <span class="wave-bar"></span>
+          <span class="wave-bar"></span>
+          <span class="wave-bar"></span>
+          <span class="wave-bar"></span>
+        </div>
+        <span id="voiceStatusText" class="voice-status-text">Listening... Speak now</span>
+      </div>
+      <button type="button" class="voice-stop-btn" onclick="stopAllVoice()">Stop</button>
+    </div>
+
+    <!-- Quick Prompts Horizontal Scroll -->
+    <div class="widget-quick-prompts">
+      <button class="widget-prompt-pill" onclick="sendQuickPrompt('What is the Foundation Program (Python, Cloud & AI)?')">
+        🐍 Python Foundation
+      </button>
+      <button class="widget-prompt-pill" onclick="sendQuickPrompt('Tell me about Cyber Security & Ethical Hacking course')">
+        🛡️ Cyber Security
+      </button>
+      <button class="widget-prompt-pill" onclick="sendQuickPrompt('What is covered in Databases In-Depth (SQL & PostgreSQL)?')">
+        🗄️ SQL & PostgreSQL
+      </button>
+      <button class="widget-prompt-pill" onclick="sendQuickPrompt('Tell me about AI Tools & Digital Marketing course')">
+        📈 AI Marketing
+      </button>
+      <button class="widget-prompt-pill" onclick="sendQuickPrompt('What career openings are available at GK Nexergy?')">
+        💼 Careers
+      </button>
+      <button class="widget-prompt-pill" onclick="sendQuickPrompt('What are your office hours, email, and WhatsApp number?')">
+        📱 Contact Info
+      </button>
+    </div>
+
+    <!-- Input Bar -->
+    <div class="widget-input-area">
+      <div class="widget-input-box">
+        <textarea 
+          id="messageInput" 
+          class="widget-textarea" 
+          placeholder="Ask anything about GK Nexergy..." 
+          rows="1"
+          onkeydown="handleKeyDown(event)"
+          oninput="autoResizeTextarea(this)"
+        ></textarea>
+        
+        <div class="widget-btn-group">
+          <button class="voice-btn" id="voiceBtn" onclick="toggleVoiceInput()" title="Voice Assistant (Click & Speak)">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" x2="12" y1="19" y2="22"/></svg>
+          </button>
+          <button class="send-btn" id="sendBtn" onclick="handleSendMessage()" title="Send Message">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+
+  <!-- Settings Modal -->
+  <div class="modal-overlay" id="settingsModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3>AI Assistant Settings</h3>
+        <button class="modal-close-btn" onclick="closeModal('settingsModal')">&times;</button>
+      </div>
+      <div>
+        <div class="form-group">
+          <label for="engineMode">Operating AI Mode</label>
+          <select id="engineMode" onchange="handleEngineChange()">
+            <option value="builtin">Built-in Knowledge Engine (Offline, Free, Instant)</option>
+            <option value="gemini">Google Gemini API (Live Generative AI)</option>
+            <option value="openai">OpenAI API (GPT-4o-mini / GPT-4o)</option>
+          </select>
+        </div>
+
+        <div id="apiKeyGroup" style="display: none;">
+          <div class="form-group">
+            <label for="apiKeyInput" id="apiKeyLabel">API Key</label>
+            <input type="password" id="apiKeyInput" placeholder="Enter API key">
+          </div>
+          <div class="form-group">
+            <label for="modelSelect">Model</label>
+            <select id="modelSelect">
+              <option value="gemini-1.5-flash">gemini-1.5-flash (Fast & Recommended)</option>
+              <option value="gemini-2.0-flash">gemini-2.0-flash</option>
+              <option value="gpt-4o-mini">gpt-4o-mini</option>
+              <option value="gpt-4o">gpt-4o</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="button" class="submit-btn" onclick="saveSettings()">Save Preferences</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load Knowledge Base and Application Controller -->
+  <script src="knowledge_base.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

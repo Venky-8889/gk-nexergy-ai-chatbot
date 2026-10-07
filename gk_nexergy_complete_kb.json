@@ -1,0 +1,320 @@
+{
+  "company": {
+    "name": "GK Nexergy",
+    "tagline": "Train. Build. Transform.",
+    "slogan": "Technology Built Around People. Solutions Built Around Purpose.",
+    "founded_by": "Industry professionals with over 25 years of IT industry experience.",
+    "about": "GK Nexergy is a technology, skill development, and software solutions company. We bring technology, learning, industry, and opportunity together through one connected ecosystem. We empower local talent, build dependable software and digital solutions for businesses, and help organisations transform through AI, data, cloud, and automation.",
+    "pillars": [
+      {
+        "pillar": "Train",
+        "description": "Industry-grade workforce empowerment through Nexergy Academy."
+      },
+      {
+        "pillar": "Build",
+        "description": "Custom enterprise software, mobile applications, and digital platforms."
+      },
+      {
+        "pillar": "Transform",
+        "description": "Modernizing businesses with AI, cloud, workflow automation, and analytics."
+      }
+    ],
+    "vision": "A connected ecosystem where quality technology education, innovation and real-world experience create opportunity — for individuals, for businesses and for the wider digital economy.",
+    "mission": "To train people with industry-relevant technology skills, build dependable software and digital solutions for businesses, and help organisations transform through the right use of AI, data, cloud and automation — connecting people, technology and business to create lasting opportunity for communities.",
+    "values": [
+      "Business-first approach (start with the business problem, then choose technology)",
+      "Honest, practical delivery with real outcomes",
+      "Empowering local, rural, and semi-urban communities with quality tech education",
+      "Human-centered innovation"
+    ]
+  },
+  "contact": {
+    "email": "contact@gknexergy.com",
+    "phone": "+91 97045 85960",
+    "whatsapp_link": "https://wa.me/919704585960?text=Hi%2C%20I%20would%20like%20to%20know%20more%20about%20your%20courses%20and%20programs.",
+    "hours": "Monday – Saturday: 9:00 AM – 7:00 PM IST",
+    "response_time": "Team responds within 24–48 hours for inquiries; quick WhatsApp connects in as little as 10 minutes."
+  },
+  "solutions": [
+    {
+      "slug": "software-development",
+      "title": "Software & Application Engineering",
+      "shortTitle": "Software Development",
+      "tagline": "Software Built Around Your Business.",
+      "description": "We design and engineer web applications, custom software and business platforms that fit the way your organisation actually works — scalable, maintainable and built for real users.",
+      "capabilities": [
+        "Custom web applications",
+        "Enterprise software systems",
+        "API design & microservices architecture",
+        "Cloud-native backend systems",
+        "Performance optimization & refactoring",
+        "Database design & data layer engineering"
+      ]
+    },
+    {
+      "slug": "mobile-development",
+      "title": "Mobile Application Development",
+      "shortTitle": "Mobile Applications",
+      "tagline": "Mobile Experiences Designed for Real Users.",
+      "description": "From customer-facing apps to internal business tools, we build mobile experiences that are fast, reliable and designed around the people who use them every day.",
+      "capabilities": [
+        "Android native & cross-platform applications",
+        "iOS applications",
+        "Flutter & React Native cross-platform apps",
+        "Internal workforce & field apps",
+        "Offline-first mobile architecture",
+        "Push notifications & API integrations"
+      ]
+    },
+    {
+      "slug": "digital-transformation",
+      "title": "Digital Transformation",
+      "shortTitle": "Digital Transformation",
+      "tagline": "From Manual Processes to Digital Possibilities.",
+      "description": "We enable businesses to transition from traditional and manual processes toward scalable, technology-enabled operating models — at the pace your organisation can absorb.",
+      "capabilities": [
+        "Process digitisation & workflow redesign",
+        "Paperless operations & legacy system migration",
+        "Cloud migration & modernisation",
+        "Technology roadmapping & IT strategy",
+        "Employee enablement & tooling transition"
+      ]
+    },
+    {
+      "slug": "ai-automation",
+      "title": "AI & Automation",
+      "shortTitle": "AI & Automation",
+      "tagline": "Turn Data and Workflows Into Intelligent Systems.",
+      "description": "We help organisations apply AI and automation where it genuinely adds value — intelligent workflows, decision support and process automation grounded in your real operations.",
+      "capabilities": [
+        "Generative AI & LLM application development",
+        "Intelligent workflow automation",
+        "Decision support & predictive intelligence",
+        "Document parsing & NLP processing",
+        "Custom AI agents & chat interfaces",
+        "Predictive maintenance & operational analytics"
+      ]
+    },
+    {
+      "slug": "data-analytics",
+      "title": "Data & Analytics",
+      "shortTitle": "Data & Analytics",
+      "tagline": "Turn Business Data Into Better Decisions.",
+      "description": "We transform fragmented business information into actionable intelligence — from databases and reporting to business intelligence and data engineering.",
+      "capabilities": [
+        "Business Intelligence (BI) dashboards",
+        "Data engineering pipelines (ETL/ELT)",
+        "PostgreSQL & relational database optimization",
+        "Real-time analytics & reporting",
+        "Data warehousing & architecture"
+      ]
+    },
+    {
+      "slug": "digital-growth",
+      "title": "Digital Growth & Marketing",
+      "shortTitle": "Digital Growth",
+      "tagline": "Build a Stronger Digital Presence.",
+      "description": "We help organisations strengthen their digital presence — combining digital strategy, brand visibility and AI-powered marketing tools to reach and engage the right audiences.",
+      "capabilities": [
+        "AI-powered marketing automation",
+        "Brand identity & digital positioning",
+        "Search Engine Optimization (SEO) & search visibility",
+        "Performance marketing funnels",
+        "Content strategy and campaign management"
+      ]
+    }
+  ],
+  "academy_courses": [
+    {
+      "slug": "foundation-program",
+      "title": "Foundation Program (Python, PostgreSQL, Cloud & AI)",
+      "category": "Foundation",
+      "subtitle": "Python • PostgreSQL • Cloud • AI",
+      "tagline": "Build Your Technology Foundation.",
+      "description": "A structured learning journey across the core technologies of modern software — Python, PostgreSQL, AWS / Azure and AI Fundamentals — designed to take learners from basics to industry readiness.",
+      "curriculum_highlights": [
+        "Python programming fundamentals to advanced object-oriented design",
+        "Relational database design, SQL querying and PostgreSQL",
+        "Cloud fundamentals with AWS / Azure and workload deployment",
+        "Modern AI fundamentals, tools, and real-world application",
+        "Hands-on capstone project mirroring production standards"
+      ],
+      "target_audience": "Students, fresh graduates, career returnees, and anyone starting a serious technology journey."
+    },
+    {
+      "slug": "cyber-security",
+      "title": "Cyber Security & Ethical Hacking",
+      "category": "Security Specialist",
+      "subtitle": "Ethical Hacking & Defensive Security",
+      "tagline": "Learn to Think Like an Attacker. Defend Like a Professional.",
+      "description": "A practical cyber security program covering security fundamentals and ethical hacking — built around hands-on labs, real attack surfaces and defensive thinking.",
+      "curriculum_highlights": [
+        "Networking fundamentals and security protocols",
+        "Vulnerability assessment and penetration testing (VAPT)",
+        "Web application security & OWASP Top 10",
+        "Defensive security architectures and incident response",
+        "Hands-on lab environments with real-world scenarios"
+      ],
+      "target_audience": "Aspiring security analysts, ethical hackers, network administrators, and developers wanting deep security expertise."
+    },
+    {
+      "slug": "postgresql-mastery",
+      "title": "Databases In-Depth (SQL & PostgreSQL)",
+      "category": "Data & Backend",
+      "subtitle": "SQL & PostgreSQL",
+      "tagline": "Master the Layer Every Application Depends On.",
+      "description": "A deep, practical program on databases — from fundamentals and SQL to PostgreSQL, data modelling and the querying skills real software teams expect.",
+      "curriculum_highlights": [
+        "Database normalization and relational schema architecture",
+        "Advanced SQL queries, window functions, CTEs and aggregations",
+        "Indexing strategies, query optimization, and execution plans",
+        "Transactions, ACID compliance, and concurrency control",
+        "PostgreSQL administration, backup, and performance tuning"
+      ],
+      "target_audience": "Backend developers, data analysts, engineering students, and software engineers seeking database mastery."
+    },
+    {
+      "slug": "ai-digital-marketing",
+      "title": "AI Tools & Digital Marketing",
+      "category": "AI & Digital Growth",
+      "subtitle": "AI-Assisted Growth Strategy",
+      "tagline": "Market Smarter With AI at Your Side.",
+      "description": "A practical program on using modern AI tools across digital marketing — from AI-assisted content and productivity to digital growth strategy and real campaign applications.",
+      "curriculum_highlights": [
+        "Digital marketing fundamentals & search marketing",
+        "AI-assisted copywriting, visual assets, and content creation",
+        "Social media automation and audience segmentation with AI",
+        "Campaign performance analytics and growth experiments",
+        "Responsible, ethical use of AI tools in marketing workflows"
+      ],
+      "target_audience": "Students, marketing professionals, entrepreneurs, and business owners looking to leverage AI in marketing."
+    }
+  ],
+  "projects": [
+    {
+      "title": "NutriBest",
+      "category": "E-Commerce & Wellness",
+      "type": "Client Project",
+      "description": "A premier online destination for high-quality nutritional supplements, essential vitamins, and science-backed dietary formulas. Features smart product discovery, subscription plans, order management, customer wellness engagement tools, and personalized product recommendations based on customer preferences and health goals.",
+      "features": [
+        "Smart product discovery",
+        "Subscription plans",
+        "Order management",
+        "Wellness engagement tools",
+        "Secure payment processing"
+      ]
+    },
+    {
+      "title": "Quintera Holdings",
+      "category": "Corporate & Real Estate / Advisory",
+      "type": "Client Project",
+      "description": "A professionally designed corporate website for Quintera Holdings — a trusted insurance and real estate advisory firm guided by Vision, Integrity & Impact. Showcases their advisory portfolio including Personal Lines Coverage, Commercial Coverage, and Real Estate Brokerage Services.",
+      "features": [
+        "Insurance advisory portfolio",
+        "Real estate brokerage showcase",
+        "Corporate branding",
+        "Client enquiry system"
+      ]
+    },
+    {
+      "title": "AYU S.S. Pharmacy",
+      "category": "Healthcare & Ayurveda",
+      "type": "Client Project",
+      "description": "A dedicated digital platform for AYU S.S. Pharmacy — a government-licensed Ayurvedic manufacturer (AYUSH License R-1970/Ayur, Govt. of Andhra Pradesh) located in Yerraguntla, Kadapa District. Features proprietary herbal remedies (Dr. Lion Pain Cream, Dr. Lion Pain Pills, Moon Light Skin Cream) manufactured at a GMP-certified facility.",
+      "features": [
+        "Ayurvedic product catalog",
+        "Wholesale distributor enquiry system",
+        "GMP facility showcase",
+        "Educational content about Ayurvedic healing"
+      ]
+    },
+    {
+      "title": "AI-Integrated Hospital Management System",
+      "category": "Healthcare & AI",
+      "type": "Upcoming AI Solution",
+      "description": "An intelligent healthcare operations platform integrating patient scheduling, electronic health records, AI-driven diagnostics support, and resource allocation.",
+      "features": [
+        "Intelligent patient triage",
+        "Automated scheduling",
+        "EHR management",
+        "Predictive staff and bed management"
+      ]
+    },
+    {
+      "title": "AI-Integrated Real Estate Business Platform",
+      "category": "Real Estate & PropTech",
+      "type": "Upcoming AI Solution",
+      "description": "A next-generation real estate platform with AI valuation models, automated lead qualification, virtual property tours, and intelligent deal matching.",
+      "features": [
+        "Automated property valuation",
+        "Smart lead scoring",
+        "Virtual matching",
+        "Analytics dashboard"
+      ]
+    },
+    {
+      "title": "AI-Enabled Restaurant Management Platform",
+      "category": "Hospitality & Food Tech",
+      "type": "Upcoming AI Solution",
+      "description": "A complete restaurant operations solution featuring AI inventory forecasting, smart menu optimization, kitchen display systems, and automated customer loyalty funnels.",
+      "features": [
+        "Inventory demand prediction",
+        "Dynamic menu engineering",
+        "Order aggregation",
+        "Customer retention AI"
+      ]
+    }
+  ],
+  "careers": [
+    {
+      "title": "Full Stack / Software Engineer",
+      "description": "Build scalable web applications, enterprise software, APIs, and modern digital platforms with cutting-edge tech stacks and AI integrations."
+    },
+    {
+      "title": "QA & Software Testing Engineer",
+      "description": "Ensure software quality, performance, security, and reliability through rigorous test planning, automated scripts, cross-browser QA, and defect tracking."
+    },
+    {
+      "title": "Technical Mentor / Trainer (Nexergy Academy)",
+      "description": "Mentor the next generation of engineers in Nexergy Academy through project-based teaching, real-world case studies, and hands-on laboratory guidance."
+    },
+    {
+      "title": "Digital Marketing Specialist",
+      "description": "Drive brand growth, organic search visibility, social community engagement, paid ad funnels, and performance marketing across multi-channel digital landscapes."
+    },
+    {
+      "title": "Tele Calling & Student Counselor",
+      "description": "Engage with prospective students, partners, and enterprise clients, communicating our training and software solutions with clarity, empathy, and professionalism."
+    },
+    {
+      "title": "Operations & Administration Executive",
+      "description": "Support daily corporate operations, training coordination, facilities, and client engagement."
+    }
+  ],
+  "industries": [
+    {
+      "industry": "Startups & Emerging Businesses",
+      "focus": "Fast MVP delivery, scalable cloud architectures, agile software delivery."
+    },
+    {
+      "industry": "Education & EdTech",
+      "focus": "Learning management platforms, digital operations, student engagement portals."
+    },
+    {
+      "industry": "Healthcare & Pharmaceuticals",
+      "focus": "Secure digital records, Ayurvedic/pharma web portals, compliance, AI scheduling."
+    },
+    {
+      "industry": "Real Estate & PropTech",
+      "focus": "Lead management, corporate portfolios, AI-powered property portals."
+    },
+    {
+      "industry": "E-Commerce & Retail",
+      "focus": "Modern online stores, inventory integration, customer engagement tools, payment gateways."
+    },
+    {
+      "industry": "Financial & Professional Services",
+      "focus": "Data security, reporting systems, workflow automation, compliance."
+    }
+  ]
+}
